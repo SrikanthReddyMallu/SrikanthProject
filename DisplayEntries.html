@@ -1,0 +1,45 @@
+<%@ taglib prefix="c"  uri="jakarta.tags.core" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+pageEncoding="ISO-8859-1"%>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title> User Data</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="mainHeader1"
+        Employee Entries Data
+    </div>
+<div class="mainTable">
+
+    <div class="tableData">
+        <h3 class="h3text">Entries Data</h3><br/><br>
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>${entrieslist.id}</td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>${entrieslist.name}</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>${entrieslist.email}</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>${entrieslist.age}</td>
+            </tr>
+            <tr>
+                <td>DateOfBirth</td>
+                <td>${entrieslist. dateOfBirth}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
